@@ -1,0 +1,20 @@
+.customer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & + .customer{
+    margin-top:.5rem
+  }
+}
+
+.test{
+  display: flex;
+  justify-content: space-between;
+  margin-top: .5rem;
+}
+
+.colorchange{
+  
+  border: 2px solid red;
+}
